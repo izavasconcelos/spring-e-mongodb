@@ -4,7 +4,7 @@ Curso de Spring Framework e MongoDB
 
 -> Primeiros Passos:
 
-Intalação do MongoDB e Mongo Compass no Ubuntu
+Instalação do MongoDB e Mongo Compass no Ubuntu
 
 -> CRUD com Compass - Creat Read Update Delete
 
@@ -51,4 +51,5 @@ roles() -> permissões de acesso - Perfis de acesso
 
 db.auth("izabela","123")
 
-
+# Importar dados de um CSV
+-
