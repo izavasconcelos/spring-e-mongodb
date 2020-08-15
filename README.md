@@ -41,7 +41,7 @@ db.collection.find().sort({"nome":1}).pretty() -> retorna com nome em ordem alfa
 
 db.getUsers()
 
-*Criar usuário
+*Criar usuário*
 
 db.createUser({user:"izabela",pwd:"123",roles:[{role:"readWrite",db:"dbaula4"}]})
 
