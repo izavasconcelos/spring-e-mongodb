@@ -35,3 +35,20 @@ db.collection.find({"nome":"Izabela"}).pretty() -> busca pelo nome
 db.collection.find({"nome":"Izabela"}).count() -> retorna a quantidade
 
 db.collection.find().sort({"nome":1}).pretty() -> retorna com nome em ordem alfabética
+
+# Gerenciar Usuários
+*Listar usuários
+
+db.getUsers()
+
+*Criar usuário
+
+db.createUser({user:"izabela",pwd:"123",roles:[{role:"readWrite",db:"dbaula4"}]})
+
+roles() -> permissões de acesso - Perfis de acesso
+
+*Autenticar
+
+db.auth("izabela","123")
+
+
