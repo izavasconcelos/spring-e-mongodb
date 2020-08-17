@@ -37,7 +37,7 @@ db.collection.find({"nome":"Izabela"}).count() -> retorna a quantidade
 db.collection.find().sort({"nome":1}).pretty() -> retorna com nome em ordem alfabética
 
 # Gerenciar Usuários
-*Listar usuários*
+- *Listar usuários*
 
 db.getUsers()
 
@@ -52,4 +52,4 @@ roles() -> permissões de acesso - Perfis de acesso
 db.auth("izabela","123")
 
 # Importar dados de um CSV
-- CSV
+- 
