@@ -47,7 +47,7 @@ db.createUser({user:"izabela",pwd:"123",roles:[{role:"readWrite",db:"dbaula4"}]}
 
 roles() -> permissões de acesso - Perfis de acesso
 
-*Autenticar*
+- *Autenticar*
 
 db.auth("izabela","123")
 
