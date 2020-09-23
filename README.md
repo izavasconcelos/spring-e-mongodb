@@ -36,6 +36,10 @@ db.collection.find({"nome":"Izabela"}).count() -> retorna a quantidade
 
 db.collection.find().sort({"nome":1}).pretty() -> retorna com nome em ordem alfabética
 
+db.collection.find().sort({"nome":-1}) -> retorna em ordem decrescente
+
+quit() -> sair do db
+
 # Gerenciar Usuários
 - *Listar usuários*
 
