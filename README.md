@@ -57,5 +57,5 @@ db.auth("izabela","123")
 
 # Importar dados de um CSV
 - 
-# MySQL
+# MySQL / PostgreSQL
 - Instalação
